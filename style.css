@@ -1,0 +1,88 @@
+#title{
+  text-decoration: none;
+  color:black;
+}
+.menu{
+  text-decoration: none;
+  color:#666666
+}
+.menu:hover{
+  color:crimson;
+}
+li{
+  list-style: none;
+  display: inline;
+  padding-left: 0;
+  padding-right: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  padding-left: 0;
+}
+body{
+  margin:0;
+}
+ul{
+  text-align: center;
+  margin-bottom: 130px;
+  margin-top: 50px;
+}
+.footer{
+  font-weight:bold;
+  color:black;
+  flex:1;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+.footer:hover{
+  color: crimson;
+}
+#foot{
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 10s0px;
+}
+#album{
+  width: 400px;
+  height: auto;
+}
+.detail_content{
+  font-family: "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+  font-size: 14px;
+}
+.detail_title{
+  font-family: "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.left{
+  float:left;
+  padding-left:150px;
+  margin-bottom:70px;
+  margin-right: 50px;
+}
+.song_title{
+  font-size:18px;
+  font-family:'맑은 고딕','Malgun Gothic',돋움,dotum,sans-serif;
+  font-weight:bold;
+}
+.lyrics{
+  border-left:1px solid gray;
+  padding-left:70px;
+  float:right;
+  padding-right:70px;
+  margin-right: 70px;
+  margin-bottom:150px;
+  font-family:'맑은 고딕','Malgun Gothic',돋움,dotum,sans-serif;
+  font-size: 14px;
+  overflow-y: scroll;
+  width: 300px;
+  height: 400px;
+}
